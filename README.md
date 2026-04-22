@@ -2,7 +2,9 @@
 
 A high-performance, full-stack web console for ESP32-CAM monitoring and control. This project solves common browser security issues like Mixed Content (HTTPS -> HTTP) and Ngrok's browser warning page.
 
-![ESP32-CAM Dashboard](https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&q=80&w=1200&h=400)
+
+<img width="1357" height="761" alt="image" src="https://github.com/user-attachments/assets/a882773b-165c-4b50-ad8b-bed1d3e75cf5" />
+
 
 ## ✨ Key Features
 
