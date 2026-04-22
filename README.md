@@ -51,9 +51,13 @@ This app automatically injects `ngrok-skip-browser-warning: true` headers to ens
 --------------分割线-------------
 
 这是一个用gemini做的一个小玩具。主要是做了一个网页应用，可以读取ESP32+ov3660摄像头通过webserver传递的视频流。
+
 ESP32端的代码只在示例的基础上做了一些OV3660图像格式的修改。其他修改不多。
+
 该应用支持local WLAN以及remote bridge访问。local访问时只需要输入对应的主机地址即可。remote访问需要输入完整的URL。
+
 此外还有截图和录制功能。基本功能是比较完善的。
+
 存在一个小bug是在remote访问下，不能调整视频的参数。因为我在本地调试时用ngrok做的渗透，免费版只支持绑定一个地址。但是esp32cam webserver的控制和视频传输是两个端口80/81，没办法只能舍弃掉一个功能。
 
 最后感慨一下，ai发展真的快。在四年前这种小项目估计要花一两周才能做完，现在有了ai帮助，即使没有太多前端基础，我用一个下午就能实现了这些功能。
