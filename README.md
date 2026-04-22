@@ -49,6 +49,7 @@ This app automatically injects `ngrok-skip-browser-warning: true` headers to ens
 *Created with Google AI Studio Build.*
 
 --------------分割线-------------
+
 这是一个用gemini做的一个小玩具。主要是做了一个网页应用，可以读取ESP32+ov3660摄像头通过webserver传递的视频流。
 ESP32端的代码只在示例的基础上做了一些OV3660图像格式的修改。其他修改不多。
 该应用支持local WLAN以及remote bridge访问。local访问时只需要输入对应的主机地址即可。remote访问需要输入完整的URL。
